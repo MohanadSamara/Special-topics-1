@@ -1,0 +1,204 @@
+.home-root {
+  font-family: Inter, sans-serif;
+  background: #fff;
+  min-height: 100vh;
+}
+
+.home-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #eee;
+  background: #fff;
+}
+
+.home-navbar-title {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.home-navbar-list {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.home-navbar-link {
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.home-login-btn {
+  background: #fff;
+  color: #ff9800;
+  border: 1px solid #ff9800;
+  border-radius: 6px;
+  padding: 0.4rem 1.2rem;
+  font-weight: 600;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.home-signup-btn {
+  background: #ff9800;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.4rem 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.home-hero-section {
+  max-width: 900px;
+  margin: 2rem auto 0;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.home-hero-img-container {
+  position: relative;
+}
+
+.home-hero-img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+.home-hero-title {
+  position: absolute;
+  bottom: 32px;
+  left: 32px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin: 0;
+  max-width: 500px;
+}
+
+.home-section {
+  max-width: 900px;
+  margin: 2.5rem auto 0;
+}
+
+.home-section-title {
+  font-size: 1.3rem;
+  margin-bottom: 18px;
+  font-weight: 600;
+}
+
+.home-how-cards {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.home-how-card {
+  flex: 1;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 1.2rem;
+  text-align: left;
+  min-width: 180px;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+
+.home-how-card.no-pointer {
+  cursor: default;
+  box-shadow: none;
+}
+
+.home-how-card.pointer {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.home-how-card-icon {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.home-how-card-title {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.home-how-card-desc {
+  color: #6d6d6d;
+  font-size: 15px;
+}
+
+.home-story {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.home-story-info {
+  flex: 1;
+}
+
+.home-story-role {
+  color: #bdbdbd;
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+.home-story-title {
+  font-weight: 600;
+  font-size: 17px;
+  margin-bottom: 4px;
+}
+
+.home-story-desc {
+  color: #6d6d6d;
+  font-size: 15px;
+}
+
+.home-story-img {
+  width: 120px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-left: 24px;
+  background: #eee;
+}
+
+.home-footer {
+  margin-top: 40px;
+  padding: 2rem 0 1rem;
+  background: #fff;
+  border-top: 1px solid #eee;
+  text-align: center;
+  color: #8d6e63;
+}
+
+.home-footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom: 12px;
+}
+
+.home-footer-link {
+  color: #8d6e63;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.home-footer-icons {
+  margin-bottom: 10px;
+}
+
+.home-footer-icon {
+  font-size: 20px;
+  margin: 0 8px;
+}
